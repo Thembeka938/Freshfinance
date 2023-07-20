@@ -1,0 +1,68 @@
+.mainCont {
+    width: 40%;    
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .inputs-container {    
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  .buttons{
+    margin-left: 10px;
+  }
+  .input-group, .gg1, .gg2{
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 5%;
+   
+
+  }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    
+    font-weight: bold;
+
+    border-radius: 10%;
+  }
+  .btn-blue {
+    background-color: blue;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 48px;
+  }
+  .btn-white {
+    background-color: white;
+    color: black;
+    background-color: transparent;
+  color: blue;
+  padding: 10px 20px;
+  
+  border-radius: 48px;
+  border-color: blue;
+  border: 1px solid;
+    
+  }
+  .gg1, .gg2{
+    height: 70px;
+    width: 60px;
+    margin-bottom: 5px;
+  border: none;
+  border-color: grey;
+    margin-left: 30px;
+  }
+  p{
+    color: grey;
+  }
+
+   
+    

@@ -1,0 +1,21 @@
+.mainContainer{
+display: flex;
+flex-direction: column;
+height: 100vh;
+width: 100%;
+
+
+}
+app-tool-bar{
+height: 50%;
+background-image:linear-gradient(to right ,white,transparent),url('../assets/services-business.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+app-middle-bar{
+    background-color: white;
+    height: 50%;
+
+
+}
