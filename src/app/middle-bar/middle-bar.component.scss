@@ -1,68 +1,115 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
 .mainCont {
-    width: 40%;    
-    margin: 0 ;
-    display: flex;
-    flex-direction: column;
-    
-  }
-  
-  .inputs-container {    
-    gap: 5%;
-    display: flex;
-    flex-direction: column;
-    
-   
-  }
-  .buttons{
-    margin-left: 10px;
-  }
-  .input-group, .gg1, .gg2{
-   
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-    gap: 5%;
-   
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  }
-  .btn {
-    padding: 10px 20px;
-    border: none;
-    color: white;
-    
-    font-weight: bold;
 
-    border-radius: 10%;
-  }
-  .btn-blue {
-    background-color: blue;
-    padding: 10px 20px;
-  border: none;
-  border-radius: 48px;
-  }
-  .btn-white {
-    background-color: white;
-    color: black;
-    background-color: transparent;
-  color: blue;
+.business-advice {
+  margin-bottom: 20px;
+}
+
+.business-advice h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.business-advice p {
+  font-size: 16px;
+}
+
+
+.boxes {
+  display: flex;
+}
+
+.boxes .box {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+
+.boxes2 {
+  display: flex;
+}
+
+.boxes2 .box2 {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 2%;
+  margin-top: 20px;
+}
+
+.btn {
   padding: 10px 20px;
-  
-  border-radius: 48px;
-  border-color: blue;
-  border: 1px solid;
-    
-  }
-  .gg1, .gg2{
-    height: 70px;
-    width: 60px;
-    margin-bottom: 5px;
+  font-size: 16px;
   border: none;
-  border-color: grey;
-    margin-left: 30px;
-  }
-  p{
-    color: grey;
-  }
+  border-radius: 48px;
+}
 
-   
-    
+.btn-blue {
+  background-color:rgb(31, 154, 243);
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color:rgb(31, 154, 243);;
+  border: 1px solid rgb(31, 154, 243);
+}
+
+
+.box-icon {
+  
+  margin-bottom: 10px;
+}
+
+mat-icon {
+  color: white;
+  display: inline-block; 
+  margin-right: 10px; 
+  border-radius: 48px;
+  background-color:rgb(31, 154, 243);
+  width: 30px;
+  height: 30px;
+}
+.b{
+  display: flex;
+  flex-direction: row;
+  gap:2%
+}
+.span{
+  display: flex;
+  flex-direction: column;
+  gap:2%
+
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+gap: 20%;
+}
+.boxes,.boxes2{
+  display: flex;
+  flex-direction: row;
+  gap:4%
+}
