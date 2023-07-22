@@ -1,32 +1,42 @@
-<mat-toolbar class="toolbar">
-  <div class="left-section">
-    <span class="logo">Freshfinance</span>
+<div class="mainCont">
+  <div class="container">
+
+    <div class="leftSide">
+      <div class="headings">Freshfinance</div>
+      <div class="nav">
+        <b *ngFor="let item of navigationItems">
+          <p>{{ item }}</p>
+        </b>
+      </div>
+      
+    </div>
+
+    <div class="right">
+      <div>Login</div>
+      <div class="Icon">
+        <button class="btn1">
+        Get in Touch
+        <mat-icon>arrow_right_alt</mat-icon>
+      </button>
+      </div>
+    </div>
   </div>
 
-  <div class="middle-section">
-    <span>Home</span>
-    <span>Product</span>
-    <span>Pricing</span>
-    <span>Contacts</span>
+  <div class="paragraph">
+    <div class="header">
+      <p class="content"><b>Business Advisory</b></p>
+      <p class="content"><br>Services</p>
+    </div>
+
+    <p>
+      Disaster recovery planning, business continuity<br>
+      management, and disaster recovery.
+
+    </p>
+
+      <div class="bottomButtons">
+        <button class="blueButton">Get Quote Now</button>
+        <button class="whiteButton">Learn More</button>
+      </div>
+    
   </div>
-
-  <div class="right-section">
-    <a class="login-link" style="color: white;">Login</a>
-    <button mat-button class="get-in-touch-button">Get in Touch &#10132;</button>
-  </div>
-
-  
-</mat-toolbar>
-
-<div class="content">
-  <h1><b>Business Advisory<br>
-     Services</b></h1>
-  <p>Disaster recovery planning, business continuity<br>
-     management, and disaster recovery.</p>
-  <div class="button-container">
-    <button class="blue-button">Get Quote Now</button>
-    <button class="white-button">Learn More</button>
-  
-</div>
-
-

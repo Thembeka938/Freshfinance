@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ToolBarComponent {
 
+  navigationItems = ['Home', 'Product', 'Pricing', 'Contact'];
+  
+
 }

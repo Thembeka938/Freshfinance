@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./middle-bar.component.scss']
 })
 export class MiddleBarComponent {
+  boxElements = [
+    { icon: 'group', firstPart: 'Put The', secondPart: 'Clients First' },
+    { icon: 'group', firstPart: 'Put The', secondPart: 'Clients First' },
+    { icon: 'group', firstPart: 'Put The', secondPart: 'Clients First' },
+    
+  ];
 
 }

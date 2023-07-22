@@ -1,82 +1,92 @@
-.toolbar {
-  display: flex;
-  align-items: center;    
-  justify-content: space-between;
-  background-color: transparent;  
-  color: black;
+.mainCont{
   font-family: Arial, Helvetica, sans-serif;
-  
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  gap: 40px;
+
 }
 
-.logo {
+.headings{
+  font-size: x-large;
   font-weight: bold;
-  
 }
 
-.middle-section span {
-  margin-right: 10px;
-  font-size: small;
-  
+.container{
+  display: flex;
+  gap: 50%;
+  align-items: center;
+  flex-direction: row;
 }
 
-.right-section .login-link {
-  color: black;
-  text-decoration: none;
-  margin-right: 10px;
+.leftSide, .nav {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  color:black;
 }
 
-.get-in-touch-button {
-  background-color: rgb(31, 154, 243);
+
+
+.right{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   color: white;
-  padding: 10px;
+  align-items: center;
+}
+
+.btn1{
+  width: 125px;
+  height: 50px;
+  background-color:#30b0e8;
+  color: white;
+  display: flex;
+  flex-direction: row;
   border: none;
+  display: flex;
+  gap: 12px;
+  align-items: center;
   border-radius: 5px;
-  
 }
 
-.login-link{
+.paragraph{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.content{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.header{
+  gap: 1px;
+}
+
+.blueButton{
+  background-color:#30b0e8;
   color: white;
-}
-
-.content {
-  
-  padding: 20px;
-}
-
-h1 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-p {
-  color: #555;
-  font-size: 16px;
-}
-
-.button-container {
-  display: flex;  
-  margin-top: 20px;
-  
-}
-
-.blue-button {
-  background-color: rgb(31, 154, 243);
-  color: white;
-  padding: 10px 20px;
+  width: 130px;
+  height: 35px;
+  border-radius: 48px;
   border: none;
+}
+
+.whiteButton{
+  background: transparent;
+  color:#30b0e8;
+  width: 120px;
+  height: 35px;
   border-radius: 48px;
-  margin-right: 10px;
+  border: 1px solid;
   
 }
 
-.white-button {
-  background-color: transparent;
-  color:rgb(31, 154, 243);
-  padding: 10px 20px;
-  
-  border-radius: 48px;
-  border-color: rgb(31, 154, 243);
-  border: 1px solid;
+.bottomButtons{
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
 }
 

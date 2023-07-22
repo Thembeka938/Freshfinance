@@ -1,115 +1,74 @@
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+.header{
+    font-size: large;
+    font-weight: bold;
 }
 
-
-.mainCont {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+.Container{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap: 30%;
+    height: 50%;
 }
 
-
-.business-advice {
-  margin-bottom: 20px;
+.headings{
+    height: 20%;
+    gap: 5%;
 }
 
-.business-advice h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
+mat-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color:#30b0e8;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: transparent;
+    color: white;
 }
 
-.business-advice p {
-  font-size: 16px;
+.text{
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
-
-.boxes {
-  display: flex;
+.Boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
 }
 
-.boxes .box {
-  flex: 1;
-  text-align: center;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-}
-
-
-.boxes2 {
-  display: flex;
-}
-
-.boxes2 .box2 {
-  flex: 1;
-  text-align: center;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-}
-
-
-.buttons {
-  display: flex;
-  gap: 2%;
-  margin-top: 20px;
-}
-
-.btn {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 48px;
-}
-
-.btn-blue {
-  background-color:rgb(31, 154, 243);
-  color: #fff;
-}
-
-.btn-white {
-  background-color: #fff;
-  color:rgb(31, 154, 243);;
-  border: 1px solid rgb(31, 154, 243);
-}
-
-
-.box-icon {
+.topBoxes{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
   
-  margin-bottom: 10px;
+   
+}
+.bottomBoxes{
+    display: flex;
+    flex-direction: row;
+     gap: 8px;
+     
+    
 }
 
-mat-icon {
-  color: white;
-  display: inline-block; 
-  margin-right: 10px; 
-  border-radius: 48px;
-  background-color:rgb(31, 154, 243);
-  width: 30px;
-  height: 30px;
-}
-.b{
-  display: flex;
-  flex-direction: row;
-  gap:2%
-}
-.span{
-  display: flex;
-  flex-direction: column;
-  gap:2%
+.Box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    height: 60px;    
+    padding: 1%;
+    gap: 5%;
+    border: 0.5px solid lightgray;
+    background-color: rgb(253, 252, 252);
 
 }
-.input-container{
-  display: flex;
-  flex-direction: column;
-gap: 20%;
-}
-.boxes,.boxes2{
-  display: flex;
-  flex-direction: row;
-  gap:4%
-}
+
+
