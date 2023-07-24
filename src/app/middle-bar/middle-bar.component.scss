@@ -1,14 +1,9 @@
-.header{
-    font-size: large;
-    font-weight: bold;
-}
-
-.Container{
-    display: flex;
-    flex-direction: column;
+.Container{       
     padding: 2%;
     gap: 30%;
     height: 50%;
+    margin-left: 100px;
+    
 }
 
 .headings{
@@ -16,59 +11,74 @@
     gap: 5%;
 }
 
-mat-icon{
-    display: inline-flex;
+
+.header{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Boxes{     
+    gap: 25px;
+ 
+}
+
+.topBoxes{        
+    gap: 20px; 
+   
+}
+
+.Box{      
+    align-items: center;
+    width: 300px;
+    height: 60px;    
+    padding: 1%;
+    gap: 5%;    
+    box-shadow: 0 0 1px  rgba(0, 0, 0, 0.5);
+    background-color: rgb(253, 252, 252);
+
+}
+
+.bottomBoxes{        
+    gap: 20px;     
+   
+}
+
+
+
+mat-icon{    
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background-color:#30b0e8;
     border: 2px solid;
     border-radius: 50%;
     border-color: transparent;
     color: white;
+    
+}  
+
+.Container,.text,.Boxes,.topBoxes,.bottomBoxes,.Box,mat-icon{
+
+    display: flex;
+
 }
 
-.text{
-    display: flex;
+.topBoxes,.bottomBoxes,.Box{
+
+    flex-direction: row;
+
+}
+
+.Container,.text,.Boxes{
+
     flex-direction: column;
-    
-    
+
 }
 
-.Boxes{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
- 
-}
+.paragraph,.text{
 
-.topBoxes{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-  
-   
-}
-.bottomBoxes{
-    display: flex;
-    flex-direction: row;
-     gap: 8px;
-     
-    
-}
-
-.Box{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 300px;
-    height: 60px;    
-    padding: 1%;
-    gap: 5%;
-    border: 0.5px solid lightgray;
-    background-color: rgb(253, 252, 252);
-
+    color: gray;
 }
 
 

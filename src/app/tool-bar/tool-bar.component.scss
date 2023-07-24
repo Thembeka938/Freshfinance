@@ -1,10 +1,24 @@
 .mainCont{
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
   padding: 2%;
   gap: 40px;
+  margin-left: 100px;
 
+}
+
+.container{   
+  gap: 50%;
+  align-items: center; 
+  
+}
+
+.leftSide,.nav {  
+  gap: 10%;
+  color:black;
+}
+
+
+.nav{
+  color:gray;
 }
 
 .headings{
@@ -12,81 +26,82 @@
   font-weight: bold;
 }
 
-.container{
-  display: flex;
-  gap: 50%;
-  align-items: center;
-  flex-direction: row;
-}
-
-.leftSide, .nav {
-  display: flex;
-  flex-direction: row;
-  gap: 5%;
-  color:black;
-}
-
-
-
-.right{
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  color: white;
+.right{  
+  gap: 20px;  
   align-items: center;
 }
 
 .btn1{
-  width: 125px;
-  height: 50px;
-  background-color:#30b0e8;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  border: none;
-  display: flex;
+  width: 130px;
+  height: 40px;    
+  border: none;  
   gap: 12px;
   align-items: center;
   border-radius: 5px;
+  justify-content: center;
+  
 }
 
-.paragraph{
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
+.paragraph{  
+  gap: 8px;
 }
 
-.content{
-  font-size: 2.2rem;
-  font-weight: bold;
+.content,.content1{
+  font-size: 2.5rem;
+  
+  
 }
 
-.header{
-  gap: 1px;
+.bottomButtons{ 
+  gap: 1%;
 }
 
-.blueButton{
-  background-color:#30b0e8;
-  color: white;
-  width: 130px;
-  height: 35px;
-  border-radius: 48px;
+.blueButton{      
   border: none;
 }
 
 .whiteButton{
   background: transparent;
-  color:#30b0e8;
-  width: 120px;
-  height: 35px;
-  border-radius: 48px;
+  color:#30b0e8;   
   border: 1px solid;
   
 }
 
-.bottomButtons{
+
+.mainCont,.container,.leftSide, .nav,.right,.btn1,.paragraph,.bottomButtons{
+
   display: flex;
-  flex-direction: row;
-  gap: 1%;
 }
+
+.bottomButtons,.btn1,.right,.leftSide, .nav,.container{
+
+  flex-direction: row;
+
+}
+
+.mainCont,.paragraph{
+  
+  flex-direction: column;
+}
+
+.btn1,.blueButton{
+
+  background-color:#30b0e8;; 
+
+}
+
+.whiteButton,.blueButton{
+
+  border-radius: 48px;
+  width: 130px;
+  height: 35px; 
+
+}
+
+.right,.btn1,.blueButton{
+
+  color: white;
+}
+
+
 
