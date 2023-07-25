@@ -1,7 +1,7 @@
 .Container{       
     padding: 2%;
     gap: 30%;
-    height: 50%;
+    height: 70%;
     margin-left: 100px;
     
 }
@@ -19,6 +19,7 @@
 
 .Boxes{     
     gap: 25px;
+
  
 }
 
@@ -27,8 +28,7 @@
    
 }
 
-.Box{      
-    align-items: center;
+.Box{          
     width: 300px;
     height: 60px;    
     padding: 1%;
@@ -43,11 +43,9 @@
    
 }
 
-
-
 mat-icon{    
-    justify-content: center;
-    align-items: center;
+    justify-content: center;    
+    display: flex;
     width: 50px;
     height: 50px;
     background-color:#30b0e8;
@@ -58,27 +56,13 @@ mat-icon{
     
 }  
 
-.Container,.text,.Boxes,.topBoxes,.bottomBoxes,.Box,mat-icon{
-
-    display: flex;
-
-}
-
-.topBoxes,.bottomBoxes,.Box{
-
-    flex-direction: row;
-
-}
-
-.Container,.text,.Boxes{
-
-    flex-direction: column;
-
-}
-
-.paragraph,.text{
+.paragraph,.text{    
 
     color: gray;
+}
+
+.mat-icon,.Box{
+    align-items: center;
 }
 
 

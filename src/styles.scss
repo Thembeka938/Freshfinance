@@ -2,3 +2,41 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mainCont,.container,.leftSide, .nav,.right,.btn1,.paragraph,.bottomButtons{
+
+    display: flex;
+  }
+  
+  .bottomButtons,.btn1,.right,.leftSide, .nav,.container{
+  
+    flex-direction: row;
+  
+  }
+  
+  .mainCont,.paragraph{
+    
+    flex-direction: column;
+  }
+
+  
+
+  .Container,.text,.Boxes,.topBoxes,.bottomBoxes,.Box,mat-icon{
+
+    display: flex;
+
+}
+
+.topBoxes,.bottomBoxes,.Box{
+
+    flex-direction: row;
+
+}
+
+.Container,.text,.Boxes{
+
+    flex-direction: column;
+
+}
+
+

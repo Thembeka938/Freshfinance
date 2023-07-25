@@ -1,13 +1,14 @@
-.mainCont{
+.mainCont{   
   padding: 2%;
   gap: 40px;
   margin-left: 100px;
+  
 
 }
 
 .container{   
   gap: 50%;
-  align-items: center; 
+   
   
 }
 
@@ -18,25 +19,27 @@
 
 
 .nav{
+
   color:gray;
 }
 
 .headings{
   font-size: x-large;
   font-weight: bold;
+  
 }
 
 .right{  
   gap: 20px;  
-  align-items: center;
+  
+  
 }
 
 .btn1{
   width: 130px;
   height: 40px;    
   border: none;  
-  gap: 12px;
-  align-items: center;
+  gap: 12px;  
   border-radius: 5px;
   justify-content: center;
   
@@ -47,7 +50,8 @@
 }
 
 .content,.content1{
-  font-size: 2.5rem;
+  font-size: 40px;
+
   
   
 }
@@ -67,23 +71,6 @@
   
 }
 
-
-.mainCont,.container,.leftSide, .nav,.right,.btn1,.paragraph,.bottomButtons{
-
-  display: flex;
-}
-
-.bottomButtons,.btn1,.right,.leftSide, .nav,.container{
-
-  flex-direction: row;
-
-}
-
-.mainCont,.paragraph{
-  
-  flex-direction: column;
-}
-
 .btn1,.blueButton{
 
   background-color:#30b0e8;; 
@@ -101,6 +88,12 @@
 .right,.btn1,.blueButton{
 
   color: white;
+}
+
+.container,.right,.btn1{
+
+  align-items: center;
+    
 }
 
 

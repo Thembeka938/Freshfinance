@@ -7,13 +7,13 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
-    height: 100vh;  
+    height: 100%;     
     width: 100%;
     
   }
   
   app-tool-bar {
-    height: 50%;
+    height: 60%;
     background-image: linear-gradient(to right, white, transparent), url('../assets/COVER1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -22,7 +22,7 @@
   
   app-middle-bar {
     background-color: white;
-    height: 50%;
+    height: 40%;
   }
 
   
